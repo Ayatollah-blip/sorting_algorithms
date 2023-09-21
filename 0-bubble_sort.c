@@ -17,7 +17,7 @@ int swipe;
 
 if (array == NULL || size < 2)
 {
-	return;
+	exit(1);
 }
 
 for (i = 0; i < size - 1; i++)
